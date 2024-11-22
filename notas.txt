@@ -1,39 +1,58 @@
 Notas proyecto
 notas pendientes
 
-al finalizar el preprocesamiento de los datos, reemplazar el tipo de datos
-
-en la columna de period number, hay valores de 98 en el año, que quiere decir desconocido, identificar la mejor forma de manejar ese valor anomalo, eso va en EDA
-
--- null values en columna de expected grade
-
-
-=Plan eda
-
-Anomalias
-desconocidos
-99s 98s
 
 
 
 
 
+
+
+
+hiperparámetros a validar con regresión logistica
+- con balanceo, sin balanceo
+- umbral de decisión
+- coeficiente de regularización "c"
+- max_iter
+- 
+
+parametros de evaluación
+- accuracy 
+- precision
+- f1 score
+- auc
+
+
+ como validar si el modelo se encuentra overfitted
+ 
 
 
 Plan de Acción
 
-- Estructurar datos en forma tabular
+Ruta de acción con modelo
 
---- terminar variables categóricas
--- continuar con features booleanos
+selección de modelo
 
--- terminar con etiquetas
+problema de clasificación, modelos que vimos en el curso
 
-remover columnas no deseadas
+Regresión logistica, 
+arbol de decision
+xgboost
+random forest
 
 
---- ya no me dará tiempo de incluir información de la vivienda, aunque ya le agarré la onda
+Rutas a considerar
 
+1. Creando dos datasets
+
+realizo un solo trayecto de código del inicio al final y lo valido con los dos datasets, 
+
+2. Mantengo un solo dataset y ajusto los pesos en la evaluación:
+
+
+model = RandomForestClassifier(class_weight='balanced')
+
+creo que podría hacer ambos
 
 
 
