@@ -82,4 +82,3 @@ Supuestos y Consideraciones
 - Hacer el modelo segmentado por rango de edades, el primer bloque, de primaria y secundaria, donde la educación es obligatoria y el segundo de bachillerato hacia arriba, donde es común en México que esa población se encuentre trabajando.
 
 ## Conclusiones
-
