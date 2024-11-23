@@ -29,11 +29,13 @@ We'll also use this structure as project phases and file structure within the re
 
 ### Business Understanding (From a Machine Learning Perspective)
 
-- [Files](placeholder)
+#### Problem Definition
 
 We will treat this project as a **binary classification** problem since our main goal is to identify whether a student will drop out of their school grade. In other words, there are only two possible outcomes in the final prediction: yes or no. However, thanks to the fact that Machine Learning algorithms are based on mathematical models and probabilities, this result will be accompanied by a **probability score**.
 
 On the other hand, the survey (ENAPE) includes a question related to the completion of the school grade, which we will use as the label for our training process. Therefore, the type of learning will be **supervised**.
+
+#### Evaluation definition
 
 Finally, to determine the evaluation metrics we will focus on, we need to analyze the potential implications of incorrect predictions. The goal is to strike a balance that ensures the model truly adds value to decision-making processes while minimizing possible negative impacts.
 
@@ -45,9 +47,9 @@ Lastly, as additional support and to achieve an appropriate balance, we will use
 
 With these considerations, the problem is described as follows:
 
-Problem Type:           Binary Classification
-Learning Type:          Supervised
-Evaluation Metrics:
+- Problem Type:           Binary Classification
+- Learning Type:          Supervised
+- Evaluation Metrics:
                         Recall
                         Precision
                         F1-score
