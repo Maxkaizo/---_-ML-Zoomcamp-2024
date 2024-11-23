@@ -31,7 +31,7 @@ We'll also use this structure as project phases and file structure within the re
 
 - [Files](placeholder)
 
-We will treat this project as a binary **classification problem** since our main goal is to identify whether a student will drop out of their school grade. In other words, there are only two possible outcomes in the final prediction: yes or no. However, thanks to the fact that Machine Learning algorithms are based on mathematical models and probabilities, this result will be accompanied by a **probability score**.
+We will treat this project as a **binary classification** problem since our main goal is to identify whether a student will drop out of their school grade. In other words, there are only two possible outcomes in the final prediction: yes or no. However, thanks to the fact that Machine Learning algorithms are based on mathematical models and probabilities, this result will be accompanied by a **probability score**.
 
 On the other hand, the survey (ENAPE) includes a question related to the completion of the school grade, which we will use as the label for our training process. Therefore, the type of learning will be **supervised**.
 
@@ -53,12 +53,21 @@ Evaluation Metrics:
                         F1-score
 
 - Data Understanding
-This phase is documented in detail in the 
-(poner aqui la liga al archivo de pre procesing)
-Explore the dataset, identify patterns, and assess its quality and relevance to the problem.
+This phase is documented in detail in the [pre_processing.ipynb](https://github.com/Maxkaizo/---_-ML-Zoomcamp-2024/blob/main/pre_processing.ipynb) file.
+
+The process at a macro scale is:
+
+    1. Filter out records out of scope.
+    2. Keep features related to the previous school cycle, as this is the part of the dataset that contains labels.
+    3. Format the dataset in a useful and standard way.
+
+For this process, the input file is **enape_raw_dataset.csv** and the output file is **enape_db_formated.csv**
 
 - Data Preparation 
-Clean, transform, and preprocess the data to make it suitable for modeling.
+This phase is documented in detail in the [eda.ipynb](https://github.com/Maxkaizo/---_-ML-Zoomcamp-2024/blob/main/eda.ipynb) file.
+
+Here we do the Exploratory Data Analysis and select relevant features. Where we manage to reduce from over a hundred of features, to 42.
+For this process, the input file is **enape_db_formated.csv** and the output file is **enape_post_eda.csv**
 
 - Modeling --- aqui hacer referencia al archivo de modelado
 Apply Machine Learning algorithms to develop predictive models.
