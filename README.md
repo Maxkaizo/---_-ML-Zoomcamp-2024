@@ -50,11 +50,11 @@ With these considerations, the problem is described as follows:
 - Problem Type:           Binary Classification
 - Learning Type:          Supervised
 - Evaluation Metrics:
-                        - Recall
-                        - Precision
-                        - F1-score
+-                           Recall
+-                           Precision
+-                           F1-score
 
-- Data Understanding
+### Data Understanding
 This phase is documented in detail in the [pre_processing.ipynb](https://github.com/Maxkaizo/---_-ML-Zoomcamp-2024/blob/main/pre_processing.ipynb) file.
 
 The process at a macro scale is:
