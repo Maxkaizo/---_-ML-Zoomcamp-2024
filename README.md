@@ -49,13 +49,10 @@ With these considerations, the problem is described as follows:
 
 - Problem Type:           Binary Classification
 - Learning Type:          Supervised
-- Evaluation Metrics:
--                           Recall
--                           Precision
--                           F1-score
+- Evaluation Metrics:     Recall (High priority), Precision (Moderate Priority), F1-score and ROC-AUC (support)
 
 ### Data Understanding
-This phase is documented in detail in the [pre_processing.ipynb](https://github.com/Maxkaizo/---_-ML-Zoomcamp-2024/blob/main/pre_processing.ipynb) file.
+This phase is documented in detail in the [1_pre_processing.ipynb](https://github.com/Maxkaizo/---_-ML-Zoomcamp-2024/blob/main/1_pre_processing.ipynb) file.
 
 The process at a macro scale is:
 
@@ -66,12 +63,13 @@ The process at a macro scale is:
 For this process, the input file is **enape_raw_dataset.csv** and the output file is **enape_db_formated.csv**
 
 ### Data Preparation 
-This phase is documented in detail in the [eda.ipynb](https://github.com/Maxkaizo/---_-ML-Zoomcamp-2024/blob/main/eda.ipynb) file.
+This phase is documented in detail in the [2_eda.ipynb](https://github.com/Maxkaizo/---_-ML-Zoomcamp-2024/blob/main/2_eda.ipynb) file.
 
 Here we do the Exploratory Data Analysis and select relevant features. Where we manage to reduce from over a hundred of features, to 42.
 For this process, the input file is **enape_db_formated.csv** and the output file is **enape_post_eda.csv**
 
 ### Modeling --- aqui hacer referencia al archivo de modelado
+This phase is documented in detail in the [3_modeling.ipynb](https://github.com/Maxkaizo/---_-ML-Zoomcamp-2024/blob/main/3_modeling.ipynb) file.
 Apply Machine Learning algorithms to develop predictive models.
 
 ### Evaluation
