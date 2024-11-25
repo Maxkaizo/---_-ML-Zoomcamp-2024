@@ -78,17 +78,21 @@ Assess the model's performance using appropriate metrics to ensure it meets the 
 ### Deployment
 Implement the model into a functional system for real-world application.
 
-## Proceso para replicar:
+## Script:
 
-Supuestos y Consideraciones
+WIP
 
-## sesgos identificados:
 
- al apoyo que recibe para sus estudios, desde el sustento, la
+## Deployment:
+
+WIP
+
+
+## Potential Biases:
+- The survey was conducted by phone, so we must consider that people without this service at home are being omitted.
+- Similarly, this survey only considers people enrolled in formal education, so a similar study or project would need to be conducted for those who have never been enrolled.
 
 ## Potential for Improvement
 
 - Develop the model as a multi-class classifier to include the probability for each dropout cause.
 - Segment the model by age range: the first group for primary and secondary education, where education is mandatory, and the second group for high school and higher education, where it is common in Mexico for this population to be part of the workforce.
-
-## Conclusiones
