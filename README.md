@@ -68,7 +68,7 @@ This phase is documented in detail in the [2_eda.ipynb](https://github.com/Maxka
 Here we do the Exploratory Data Analysis and select relevant features. Where we manage to reduce from over a hundred of features, to 42.
 For this process, the input file is **enape_db_formated.csv** and the output file is **enape_post_eda.csv**
 
-### Modeling --- aqui hacer referencia al archivo de modelado
+### Modeling
 This phase is documented in detail in the [3_modeling.ipynb](https://github.com/Maxkaizo/---_-ML-Zoomcamp-2024/blob/main/3_modeling.ipynb) file.
 Apply Machine Learning algorithms to develop predictive models.
 
@@ -86,8 +86,9 @@ Supuestos y Consideraciones
 
  al apoyo que recibe para sus estudios, desde el sustento, la
 
-## Potencial de mejora
-- Hacer el modelo multiclase para agregar la probabilidad de cada causa de abandono
-- Hacer el modelo segmentado por rango de edades, el primer bloque, de primaria y secundaria, donde la educación es obligatoria y el segundo de bachillerato hacia arriba, donde es común en México que esa población se encuentre trabajando.
+## Potential for Improvement
+
+- Develop the model as a multi-class classifier to include the probability for each dropout cause.
+- Segment the model by age range: the first group for primary and secondary education, where education is mandatory, and the second group for high school and higher education, where it is common in Mexico for this population to be part of the workforce.
 
 ## Conclusiones
