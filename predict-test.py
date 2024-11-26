@@ -47,7 +47,6 @@ student = {
   "period_number": 6
 }
 
-
 response = requests.post(url, json=student).json()
 
 print(response)
