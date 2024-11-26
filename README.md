@@ -82,7 +82,7 @@ Implement the model into a functional system for real-world application.
 
 The trainning script is this file [train.py](https://github.com/Maxkaizo/---_-ML-Zoomcamp-2024/blob/main/train.py)
 The predict script is this file [predict.py](https://github.com/Maxkaizo/---_-ML-Zoomcamp-2024/blob/main/predict.py)
-
+The test script is this file [predict-test.py](https://github.com/Maxkaizo/---_-ML-Zoomcamp-2024/blob/main/predict-test.py)
 ## Deployment:
 
 WIP
