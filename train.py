@@ -16,7 +16,7 @@ warnings.filterwarnings("ignore", category=ConvergenceWarning)
 warnings.filterwarnings("ignore", category=ConvergenceWarning)
 
 # Data loading
-df = pd.read_csv('G:\Mi unidad\###_ ML Zoomcamp 2024\enape_raw_dataset.csv')
+df = pd.read_csv('enape_raw_dataset.csv')
 
 
 # Filter and format 
