@@ -91,6 +91,18 @@ The Requirements are defined in the Pipfile and Pipfile.lock files
 The Docker image is defined in the Dockerfile
 
 
+The command to run the script in the virtual environment is:
+
+waitress-serve --listen=0.0.0.0:9696 predict:app
+
+And the commands to build the docker image and run the container are:
+
+docker build -t dropout-project .
+
+docker run -it --rm --entrypoint=bash dropout-project
+
+docker run -it --rm -p 9696:9696 dropout-project
+
 
 ## Potential Biases:
 - The survey was conducted by phone, so we must consider that people without this service at home are being omitted.
