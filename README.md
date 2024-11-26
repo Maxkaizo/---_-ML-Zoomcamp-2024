@@ -83,6 +83,7 @@ Implement the model into a functional system for real-world application.
 The trainning script is this file [train.py](https://github.com/Maxkaizo/---_-ML-Zoomcamp-2024/blob/main/train.py)
 The predict script is this file [predict.py](https://github.com/Maxkaizo/---_-ML-Zoomcamp-2024/blob/main/predict.py)
 The test script is this file [predict-test.py](https://github.com/Maxkaizo/---_-ML-Zoomcamp-2024/blob/main/predict-test.py)
+The test to cloud env is donde with this file [predict-test-cloud.py](https://github.com/Maxkaizo/---_-ML-Zoomcamp-2024/blob/main/predict-test-cloud.py)
 
 
 ## Replication and Deployment:
@@ -98,10 +99,11 @@ waitress-serve --listen=0.0.0.0:9696 predict:app
 And the commands to build the docker image and run the container are:
 
 docker build -t dropout-project .
-
 docker run -it --rm --entrypoint=bash dropout-project
-
 docker run -it --rm -p 9696:9696 dropout-project
+
+
+
 
 
 ## Potential Biases:
