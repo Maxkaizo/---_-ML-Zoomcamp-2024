@@ -104,6 +104,8 @@ docker run -it --rm -p 9696:9696 dropout-project
 
 ### Cloud Deployment
 
+
+
 ## Deployment Instructions for AWS
 Follow these steps to replicate the deployment of this application on AWS.
 
@@ -115,14 +117,16 @@ Prerequisites
 Environment Setup
 - Install AWS Elastic Beanstalk CLI:
 
-- In your local virtual environment, install the awsebcli library by running:
+In your local virtual environment, install the awsebcli library by running:
 
-´pipenv install awsebcli --dev´
+`pipenv install awsebcli --dev`
+
+Then access the virtual environment with `pipenv shell`
 
 - Initialize Elastic Beanstalk:
 Run the following command to initialize Elastic Beanstalk interactively:
 
-´eb init´
+`eb init`
 
 Select Linux as the platform.
 Choose Docker for the platform configuration.
@@ -131,12 +135,12 @@ Do not enable CodeCommit.
 - Test Locally:
 Run your application locally to verify the setup using:
 
-´eb local run --port 9696´
+`eb local run --port 9696`
 
 - Deploy to AWS:
 Create the application environment in AWS with the following command:
 
-´eb create dropout-app --enable-spot´
+`eb create dropout-app --enable-spot`
 
 take Note of the output to Identify the url where the app is available
 
@@ -144,8 +148,8 @@ take Note of the output to Identify the url where the app is available
 Modify the predict-test-cloud.py file and specify the url noted in the previous step
 Run this file and you should receive a response like this:
 
-´{'dropout': True, 'dropout_probability': 0.984918117777565}
-please reach out with the student´
+{'dropout': True, 'dropout_probability': 0.984918117777565}
+please reach out with the student
 
 ## Potential Biases:
 - The survey was conducted by phone, so we must consider that people without this service at home are being omitted.
