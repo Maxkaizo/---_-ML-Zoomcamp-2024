@@ -103,7 +103,7 @@ docker run -it --rm --entrypoint=bash dropout-project
 docker run -it --rm -p 9696:9696 dropout-project
 
 ### Cloud Deployment
-
+I shut down my cloud deployment to avoid any costs, but you'll find screenshots demonstrating the process in this repository as [cloud deployment evidence 1.png](https://github.com/Maxkaizo/---_-ML-Zoomcamp-2024/blob/main/cloud%20deployment%20evidence%201.png) and [cloud deployment evidence 2.png](https://github.com/Maxkaizo/---_-ML-Zoomcamp-2024/blob/main/cloud%20deployment%20evidence%202.png)
 
 
 ## Deployment Instructions for AWS
